@@ -1,4 +1,18 @@
 
+function calcular(){
+    var peso= document.getElementById('peso').value;
+    var altura= document.getElementById('altura').value;
+   
+    
+    var imc = parseFloat(peso)/parseFloat(altura)^2;
+   
+    document.getElementById('result').value= imc;
+  
+  }
+
+
+
+
 // const altura =1.56;
 // const peso= 70.00;
 

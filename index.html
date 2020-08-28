@@ -19,18 +19,27 @@
              <form>
                  <fieldset>
                     <label>Informe seu peso <strong>(ex: 56,00)</strong></label><br>
-                    <input type="number" id=""><br><br>
+                    <input type="number" id="peso"><br><br>
    
-                    <label>Informe seu Altura <strong>(ex: 56,00)</strong></label><br>
-                    <input type="number" id="">
+                    <label>Informe seu Altura <strong>(ex: 1,60)</strong></label><br>
+                    <input type="number" id="altura">
                    <br><br>
-                    <button id="btn">Calcular</button>
+                    <button id="btn" onclick="calcular()">Calcular</button>
 
                  </fieldset>
                 
                 </form>
-                
+                <img src="img/img1.jpg" alt="" width="450" height="300">
          </div>
+
+         <div>
+
+            <label >Seu IMC</label><br>
+        
+            <input type="number" id='result' value="">
+          
+        </div>
+          
         
      </main>
 
@@ -38,7 +47,7 @@
 
    
 
-   
+   <script src="index.js"></script>
 
 
 </body>
