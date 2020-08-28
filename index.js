@@ -2,13 +2,20 @@
 function calcular(){
     var peso= document.getElementById('peso').value;
     var altura= document.getElementById('altura').value;
-   
+    var al= parseFloat(altura)*parseFloat(altura);//altura ao quadrado
     
-    var imc = parseFloat(peso)/parseFloat(altura)^2;
+    var imc = parseFloat(peso)/al;
+    imc=imc.toFixed(2)//pegar duas casas depois da vígula
    
     document.getElementById('result').value= imc;
   
   }
+
+  $(document).ready(function(){
+		$("#peso").mask("00.00");
+		$("#altura").mask("0.00");
+	});
+
 
 
 

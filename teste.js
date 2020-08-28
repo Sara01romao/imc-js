@@ -39,3 +39,9 @@ function calcular(){
  
 
 }
+
+
+$(document).ready(function(){
+  $("#peso").mask("00.00");
+  $("#altura").mask("0.00");
+});
