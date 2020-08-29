@@ -16,27 +16,31 @@
 
      <main>
          <div>
+            <img src="img/img1.jpg" alt="" width="450" height="300">
              <form>
                  <fieldset>
                     <label>Informe seu peso <strong>(ex: 56,00)</strong></label><br>
-                    <input type="number" id="peso"><br><br>
+                    <input type="number" id="peso" required><br><br>
    
                     <label>Informe seu Altura <strong>(ex: 1,60)</strong></label><br>
-                    <input type="number" id="altura">
+                    <input type="number" id="altura" required>
                    <br><br>
                     <button id="btn" onclick="calcular()">Calcular</button>
 
+                    <button id="btn-limpa" onclick="limpaCampo()">Novo cálculo</button>
                  </fieldset>
                 
                 </form>
-                <img src="img/img1.jpg" alt="" width="450" height="300">
+                
          </div>
 
          <div>
 
-            <label >Seu IMC</label><br>
+            <label >Resultado</label><br>
         
             <input type="number" id='result' value="">
+
+            
           
         </div>
           

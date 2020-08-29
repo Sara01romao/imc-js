@@ -11,10 +11,22 @@ function calcular(){
   
   }
 
+
+  function limpaCampo(){
+    document.getElementById('peso').value=' ';
+    document.getElementById('altura').value=' ';
+    document.getElementById('result').value=' ';
+    
+  }
+
+
+
+
+
   $(document).ready(function(){
 		$("#peso").mask("00.00");
 		$("#altura").mask("0.00");
-	});
+	});// para mascara dos inputs
 
 
 
