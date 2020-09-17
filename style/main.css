@@ -1,6 +1,36 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
+
+body{
+  background-color: rgb(255, 255, 255);
+}
+
+header{
+  padding: 36px;
+  background-color: rgba(212, 255, 255, 0.377);
+  border-bottom:1px solid rgb(80, 227, 238) ;
+
+}
+
+header div h1, h3{
+  text-align: center;
+}
+
+p{
+  text-align: center;
+  font-size: 24px ;
+  margin: 10px 0px;
+  
+}
+
+
+
 
 #a{
-    margin: 150px;
+    margin: 50px 15vw;
 }
 
  table{ font-family: arial, sans-serif;
@@ -19,3 +49,22 @@ td, th {
 tr:nth-child(even) {
   background-color: #dddddd;
 }
+
+
+form{
+  margin: 60px 15vw;
+  border: 1px solid rgb(0, 2, 2);
+  text-align: center;
+}
+
+label{
+  font-size: 12px;
+  
+}
+
+input{
+  padding: 10px;
+  margin-top: 5px;
+  border: 2px solid rgb(137, 241, 245);
+}
+

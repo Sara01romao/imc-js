@@ -9,14 +9,19 @@
 <body>
 
     <header>
-        <h1>Calcule seu IMC</h1>
-    <h3>Acompanhe seu índice de massa corporal</h3>
+        <div>
+            <h1>Calcule seu IMC</h1>
+            <h3>Acompanhe seu índice de massa corporal</h3>
+        </div>
+       
     </header>
 
 
 
      <main>
          <div id="a">
+        <fieldset>
+            <p>Tabela índice de massa corporal</p>
 
             <table>
                 <tr>
@@ -47,17 +52,20 @@
                 </tr>
                 
             </table>
+        </fieldset>
+
+        
 
 
 
-            <img src="img/img1.jpg" alt="" width="450" height="300">
+           
          </div>
 
 
          <div id="b">
             
              <form>
-                 <fieldset>
+                    <p>Calculadora IMC</p>
                     <label>Informe seu peso <strong>(ex: 56,00)</strong></label><br>
                     <input type="number" id="peso" required><br><br>
    
@@ -67,7 +75,7 @@
                     <button id="btn" onclick="calcular()">Calcular</button>
 
                     <button id="btn-limpa" onclick="limpaCampo()">Novo cálculo</button>
-                 </fieldset>
+                 
                 
                 </form>
                 
