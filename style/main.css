@@ -10,8 +10,8 @@ body{
 
 header{
   padding: 36px;
-  background-color: rgba(212, 255, 255, 0.377);
-  border-bottom:1px solid rgb(80, 227, 238) ;
+  border-bottom:3px solid rgba(172, 232, 236, 0.301) ;
+  box-shadow: 5px 1px 6px rgba(155, 155, 155, 0.37);
 
 }
 
@@ -66,6 +66,30 @@ input{
   padding: 10px;
   margin-top: 5px;
   border: 2px solid rgb(137, 241, 245);
+}
+button{
+  width: 100px;
+  height: 30px;
+  margin: 20px 20px 20px 20px;
+  border-radius: 3px;
+}
+#btn{
+  background: rgb(61, 101, 175);
+  color: white;
+  font-weight: bold;
+}
+
+#btn:hover{
+  background: cornflowerblue;
+}
+
+#btn-limpa{
+  background: rgb(194, 211, 241);
+  font-weight: bold;
+}
+
+#btn-limpa:hover{
+  background: rgb(147, 169, 206);
 }
 
 .resultado{
