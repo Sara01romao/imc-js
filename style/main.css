@@ -94,21 +94,58 @@ button{
 
 .resultado{
   align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+
  
 }
 
+.resultado label{
+  margin-bottom: 0px;
+  display: block;
+  color: red;
+  flex-wrap: nowrap;
+}
+
 .resultado input{
-  margin-left: 43%;
+  margin: 0px 220px ;
+  border: 1px solid rgb(0, 2, 2);
   text-align: center;
+  padding: 10px 10px 10px 10px;
+  
+  
   
  
 }
 
-@media (width:500px){
-  .resultado input{
-    margin-left: 30%;
-  }
+ @media (width:500px){
+  .resultado{
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+
+ 
 }
+
+.resultado label{
+  margin-bottom: 0px;
+  display: block;
+  color: red;
+  
+}
+
+.resultado input{
+  margin: 0px 220px ;
+  border: 1px solid rgb(0, 2, 2);
+  text-align: center;
+  padding: 10px 10px 10px 10px;
+ 
+}
+} 
 
 
 footer{
