@@ -68,3 +68,29 @@ input{
   border: 2px solid rgb(137, 241, 245);
 }
 
+.resultado{
+  align-items: center;
+ 
+}
+
+.resultado input{
+  margin-left: 43%;
+  text-align: center;
+  
+ 
+}
+
+@media (width:500px){
+  .resultado input{
+    margin-left: 30%;
+  }
+}
+
+
+footer{
+  margin: 100px 0px 0px 0px;
+  max-width: auto;
+  height: 50px;
+  border-top: 1px solid cyan;
+  box-shadow: 2px 1px 6px rgba(155, 155, 155, 0.37);
+}
