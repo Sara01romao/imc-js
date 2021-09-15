@@ -7,7 +7,7 @@ function calcular(){
     var imc = parseFloat(peso)/al;
     imc=imc.toFixed(2)//pegar duas casas depois da vígula
    
-    document.getElementById('result').value= imc;
+    document.getElementById('result').innerHTML= imc;
 
 
 
@@ -40,13 +40,7 @@ function calcular(){
   }
 
 
-  function limpaCampo(){
-    document.getElementById('peso').value=' ';
-    document.getElementById('altura').value=' ';
-    document.getElementById('result').value=' ';
-    document.getElementById('msg').innerHTML= ' ';
-    
-  } //limpa campos
+
 
 
 
