@@ -37,6 +37,11 @@ body{
   
 }
 
+form{
+  display: flex;
+  flex-direction: column;
+}
+
 .formulario{
   flex: 1;
   margin-bottom: 50px;
@@ -127,6 +132,7 @@ button:hover{
 
 .resultado small{
   color: #696767;
+  visibility: hidden;
  
 }
 

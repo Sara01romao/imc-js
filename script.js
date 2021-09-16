@@ -6,8 +6,12 @@ function calcular(){
     
     var imc = parseFloat(peso)/al;
     imc=imc.toFixed(2)//pegar duas casas depois da vígula
+
+    if(peso!=0 && altura !=0){
    
     document.getElementById('result').innerHTML= imc;
+
+    document.getElementById('txtResultado').style.visibility = "visible";
 
 
 
@@ -36,6 +40,8 @@ function calcular(){
         document.getElementById('msg').innerHTML="Seu IMC é classificado como OBESSIDADE GRAVE";
       
        }
+
+    }
   
   }
 

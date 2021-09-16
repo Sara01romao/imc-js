@@ -9,31 +9,32 @@
 <body>
 
    <section class="container">
+
        <div class="formulario">
            <h1>IMC</h1>
+            <form action="">
+                <div class="containerInputs">
+                    <label for="">Peso</label>
+                    <div class="input">
+                        <input type="number"  id="peso" required >
+                        <p>Kg</p>
+                    </div>
+                    
+                </div>
 
-          <div class="containerInputs">
-              <label for="">Peso</label>
-              <div class="input">
-                  <input type="number"  id="peso" required placeholder="">
-                  <p>Kg</p>
-              </div>
-              
-          </div>
+                <div class="containerInputs">
+                    <label for="">Altura</label>
+                    <div class="input">
+                        <input type="number"  id="altura" required >
+                        <p>m</p>
+                    </div>
+                    
+                </div>
 
-           <div class="containerInputs">
-              <label for="">Altura</label>
-              <div class="input">
-                  <input type="number"  id="altura" required placeholder="">
-                  <p>m</p>
-              </div>
-              
-           </div>
-
-           <button id="btn" onclick="calcular()">Calcular</button>
-
+                <button id="btn" onclick="calcular()">Calcular</button>
+            </form>
            <div class="resultado">
-               <small>Resultado</small>
+               <small id="txtResultado">Resultado</small>
                <h3 id='result'></h3>
                <p id="msg" ></p>
            </div>
