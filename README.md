@@ -15,6 +15,5 @@ JavaScript
 <h6 align="center">   Home- exemplo</h6>
 
 <p align="center">
-  <img max-width="auto" height="auto"  src="https://user-images.githubusercontent.com/46323667/99911245-c633c280-2cd1-11eb-9089-addca29ffa22.png">
-</p>
+  <img max-width="auto" height="auto"  src="https://user-images.githubusercontent.com/46323667/133540534-714db2c1-0cee-400c-beb7-d287978083ca.png">
 
