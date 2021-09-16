@@ -45,7 +45,7 @@ function calcular(){
 
 
   $(document).ready(function(){
-		$("#peso").mask("#0.000", {reverse: true});
+		$("#peso").mask("000.00");
 		$("#altura").mask("0.00");
 	});// para mascara dos inputs
 
